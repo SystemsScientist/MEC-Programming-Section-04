@@ -1,0 +1,86 @@
+
+Section 04: 'C' Integer Data Types and Value Ranges
+--------------------------------------------------------------------------------------------------------
+
+Data Type			Memory Size (Bytes)		Range
+
+signed char			1				-128 to 127
+
+unsigned char			1				0 to 255
+
+short int			2				-32,768 to 32,767
+
+unsigned short int		2				0 to 65, 535
+
+int				4				-2,147,483,648 to 2,147,483,647
+
+unsigned int			4				0 to 4,294,967,295
+
+long				8				-9223372036854775808 to 9223372036854775807
+
+unsigned long			8				0 to 18446744073709551615
+
+long long int			8				-9223372036854775808 to 9223372036854775807
+
+unsigned long long int		8				0 to 18446744073709551615
+
+Meaning of memory size:
+
+	The compiler (e.g., GCC) will generate the code to allocate
+	64 bits (8 bytes of memory) for each long long variable
+
+
+XC8 is a cross compiler for PIC 8 bit microcontrollers
+
+Data Type			Size in Bits		Data Range/Usage
+
+unsigned char			8-bit			0 to 255
+
+char				8-bit			-128 to 127
+
+unsigned int			16-bit			0 to 65,535
+
+int				16-bit			-32,768 to 32,767
+
+unsigned short			16-bit			0 to 65,535
+
+short				16-bit			-32,768 to 32,767
+
+unsigned short long		24-bit			0 to 16,777,215
+
+short long			24-bit			-8,388,608 to 8,388,607
+
+unsigned long			32-bit			0 to 4,294,967,295
+
+long				32-bit			-2,147,483,648 to 2,147,483,648
+
+
+'C' Integer Data Types
+
+	- The C standard does not fix the storage sizes
+	  of different data types; it only talks about 
+	  the minimum and maximum values
+	
+	- For example, C standard says that the minimum
+	  storage size of a long type variable is 32 bits,
+	  and the max is 64 bits. So, exact size of the
+	  long type variable depends on the compiler
+	  design
+	
+	- Some compilers fix 32 bits storage size for long
+	  type variables and some compilers fix 64 bits. 
+	  Same is true for int data type. Some compilers
+	  fix 16 bits storage size for int type variables
+	  and some compilers fix 32 bits
+
+
+Note: these data types will always be fixed size irrespective of compilers
+
+	short (signed or unsigned) is always 2 bytes
+
+	char (signed or unsigned) is always 1 byte
+
+	long long (signed or unsigned) is always 8 bytes
+
+
+
