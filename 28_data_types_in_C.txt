@@ -1,0 +1,110 @@
+
+Section 04: Data Types in 'C'
+----------------------------------------------------------
+
+Data Types
+
+	- Data type is used for declaring the type
+	  of a variable
+	
+	- In C programming, data types determine the
+	  type and size of data associated with 
+	  variables
+	
+	- Before storing any value in a variable, 
+	  programmer should decide its type
+
+
+Representing Real World Data
+
+	- Data as numbers (integer or real numbers)
+
+	- Data as characters
+
+	- Data as strings (collection of characters)
+
+
+Examples
+
+	- Roy's age is '44' years, '6' months and 
+	  '200' days
+	
+	- The temperature of the city is '+27.2'
+	  degress Celsius
+	
+	- Today's date is '21st' of June
+
+	- I got an 'A' grade in my school assignment
+
+
+Data types
+
+	Based on the real-world data we have two 
+	significant data types in C
+
+
+'C' Data Types
+
+	Integer data types
+
+		Used to represent whole numbers
+		(integers)
+
+			Example: 10, 20, 30, etc.
+	
+	Float data types
+
+		Used to represent real numbers
+
+			Example: 10, 24.5, 3.14,
+			6.28, 60.000001, etc.
+
+
+Integer Data Types (for signed data)
+
+	- char
+
+	- short int
+
+		+ also referred by just "short"
+
+		+ "int" is assumed
+
+		+ "short int" is synonymous with
+		  "short
+
+	- int
+
+	- long int
+
+		+ also referred to as "long"
+
+		+ "int" is assumed
+
+	- long long int
+
+		+ also referred to as "long long"
+
+		+ "int" is assumed
+	
+	- Note: signed data can be positive or 
+	  negative
+
+
+Integer Data Types (for unsigned data)
+
+	- unsigned char
+
+	- unsigned short int
+
+	- unsigned int
+
+	- unsigned long int
+
+	- unsigned long long int
+
+	- Note: unsigned data can only hold a
+	  positive sign
+
+
+
