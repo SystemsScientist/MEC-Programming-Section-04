@@ -1,0 +1,105 @@
+
+Section 04: Char Data Type and Variable Definition
+-------------------------------------------------------------------
+
+Integer Data Type: char
+
+	- This is an integer data type to store a single 
+	  character (ASCII code) value or 1 byte of
+	  signed integer value (+ve or -ve value)
+	
+	- A char data type variable consumes 1 byte of
+	  memory
+	
+	- char happens to be the smallest integer data
+	  type of 1 byte
+	
+	- There is no other special meaning for the char
+	  data type, and it is just another integer data
+	  type
+
+
+Range of char Data Type
+
+	- char range: -128 to 127
+
+		+ A char data type will be used to store
+		  1 byte of signed data
+	
+	- Unsigned char range: 0 to 255
+
+		+ An unsigned char data type will be 
+		  used to store 1 byte of unsigned data
+
+
+Setup
+
+	I want to store the current temperature data of
+	city 'X' in my program
+
+	City X's today's temperature is 25 degrees Celsius
+
+	I am sure that X's temperature never goes below 0
+	degrees and never goes above 40 degrees Celsius
+
+	That means City X's temperature will always be a
+	positive value, and the max value is less than 25
+
+	So, here we can use unsigned char data type to
+	represent temperature value
+
+
+Example 1
+
+	unsigned char cityXTemperature;
+	cityXTemperature = 25;
+
+	Here, cityXTemperature is a variable of type
+	unsigned char to hold the integer value 25
+
+
+Variable Definition I
+
+	unsigned char cityXTemperature; 
+	cityXTemperature = 25;
+
+	Where unsigned char cityXTemperature is the
+	variable definition and cityXTemperature = 25
+	is the variable initialization
+
+
+Variable Definition II
+
+	- Variable definition always includes "data
+	  type" followed by a "variable name"
+
+	- Before using a variable, you should always
+	  define it using appropriate data type
+	
+	- You can select the data type according to
+	  your program logic and need
+
+
+Example 2
+
+	- Store the sun's temperature value in a 
+	  program
+	
+	- Sun's surface temperature is 5,5505 degrees
+	  Celsius
+
+	- Moreover, we know that it will never be -ve
+	  value for another few billion years
+	
+	- So we can consider it as unsigned data
+	  (+ve data)
+	
+	- 5505 > 255, so we cannot use unsigned char
+
+	- So, in this case, we can safely use the 
+	  unsigned short int data type like below
+
+	  unsigned short sunTemperature = 5005;
+
+
+
