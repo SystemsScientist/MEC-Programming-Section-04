@@ -1,0 +1,15 @@
+
+Section 04: sizeof operator
+---------------------------------------------------------------
+
+Sizeof operator
+
+	- sizeof operator of C programming language
+	  is used to find out the size of a variable
+	
+	- The output of the sizeof operator may be
+	  different on different machines because it
+	  is compiler dependent
+
+
+
