@@ -1,0 +1,25 @@
+
+Section 04: Range Calculation for 'char' Data Type
+-------------------------------------------------------------------------
+
+Range Calculation
+
+	Let us calculate the range of char data type
+
+		+ We know that variable of the char data
+		  type consumes 1 byte of memory
+
+		+ Also, the char data type will be used
+		  to store 1 byte of signed data
+
+
+Unsigned char Range
+
+	- The unsigned char data type is used to store 1
+	  byte of unsigned data
+	
+	- In unsigned data representation no particular
+	  bit is dedicatedly used to encode the sign
+
+
+
