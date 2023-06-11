@@ -1,0 +1,30 @@
+
+Section 04: Variable Definition Exercise
+----------------------------------------------------------------
+
+Write a C program to calculate and print the distance
+from A to C, where A to B is 160 Km and B to C is 
+40 Km
+
+Requirements
+
+	1. Create the variables to hold the data
+	2. Compute the sum of the data
+	3. Store the result
+	4. Print the result as shown in the format
+	   (see sketch in the video)
+
+
+Format Specifiers
+
+	Format Specifier	Description
+
+	%d			Integer Format Specifier
+	%f			Float Format Specifier
+	%c			Character Format Specifier
+	%s			String Format Specifier
+	%u			Unsigned Integer Format Specifier
+	%ld			Long Int Format Specifier
+
+
+
