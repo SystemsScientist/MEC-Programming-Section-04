@@ -1,0 +1,41 @@
+
+Section 04: Integer Data Type 'int' and 'long'
+-----------------------------------------------------------------
+
+Integer Data Type: int and unsigned int
+
+	- int is an integer data type to store signed
+	  integer data
+	
+	- An int type variable consumes 2 bytes of memory
+	  or 4 bytes of memory
+	
+	- Size of an int is decided by the compiler being
+	  used to generate code for your target hardware,
+	  i.e., you need to consult the compiler user 
+	  manual to understand the size of an int - it is
+	  typically 2 or 4 bytes
+	
+	- unsigned int is an integer data type to store
+	  unsigned integer data
+
+
+Integer Data Type: long and unsigned long
+
+	- long is an integer data type to store signed
+	  integer data
+	
+	- A long type variable consumes 4 bytes of 
+	  memory or 8 bytes of memory
+	
+	- Size of long data type is decided by the compiler
+	  being used to generate code for your target 
+	  hardware, i.e., you need to consult the compiler
+	  user manual to understand the size of long - it is
+	  typically 4 or 8 bytes
+	
+	- unsigned long is an integer data type to store
+	  unsigned integer data
+
+
+
