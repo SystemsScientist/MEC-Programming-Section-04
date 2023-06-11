@@ -1,0 +1,26 @@
+
+Section 04: Integer Data Type 'short int' and Value Range
+--------------------------------------------------------------------------------
+
+Integer Data type: short int and unsigned short int
+
+	- Variable of type short int is used to store 2 bytes
+	  of signed data
+	
+	- Variable of type unsigned short int is used to store
+	  2 bytes of unsigned data
+	
+	- You can just mention short (for signed) or unsigned
+	  short - "int" will be assumed
+
+	- short type variable always consumes 2 bytes of memory
+	  irrespective of compilers
+
+
+Range of short int
+
+	- short range: -32,768 to 32,767
+	- unsigned short range: 0 to 65535
+
+
+
