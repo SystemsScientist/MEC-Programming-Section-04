@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1686446903 source:c:\users\matt\desktop\embedded-c\my-workspace\host\section-04\31-variable-definition-exercise\main.c
+	<stdio.h>
+	<stdlib.h>
+
