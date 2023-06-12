@@ -1,0 +1,138 @@
+
+Section 04: Variables Naming Rules and Definition vs Declaration
+-----------------------------------------------------------------------
+
+What are variables?
+
+	- Variables are identifiers for your data
+
+	- Data are usually stored in computer memory
+
+	- So, a variable acts as a label to a memory
+	  location where the data is stored
+
+	- Variable names are not stored inside the
+	  computer memory, and the compiler replaces
+	  them with memory location addresses during 
+	  data manipulation
+
+
+Example 1
+
+	#include <stdio.h>
+
+	int main(void) {
+
+		// valueA and valueB are variables of type char
+		char valueA = 20; // 20 is data stored in valueA
+		char valueB = 30; // 30 is data stored in valueB
+
+		printf("Size of valueA = %d\n", sizeof(valueA));
+		printf("Size of valueB = %d\n", sizeof(valueB));
+
+		return 0;
+	}
+
+
+Note 1
+
+	- Memory location addresses are pointers
+	
+	- valueA is a name assigned to the memory location address
+	  to retrieve the data stored
+
+	- Variable name exists for programming convenience and
+	  doesn't exist post-compilation, only its associated
+	  memory location address does
+
+
+Defining Variables I
+
+	- Before you use a variable, you have to define it
+
+	- Variable definition (sometimes also called a variable
+	  declaration) is nothing more than letting the compiler
+	  know you will need some memory space for your program
+	  data so it can reserve some
+
+
+Defining Variables II
+
+	- To define a variable, you only need to state its type,
+	  followed by a variable name
+	
+	- If the data type of the variable is char, then the
+	  compiler reserves 1 byte
+	
+	- If the data type is int then the compiler reserves 4
+	  bytes
+
+
+Syntax: Defining Varaibles
+
+	'C' Syntax of variable definition
+
+	<data_type> <variable_name>
+
+
+Example 
+
+	char myExamScore; // This is called a variable definition
+
+
+Variable Initialization
+
+	char myExamScore; // variable definition
+
+	myExamScore = 25; // variable initialization
+
+	Observe that variable initialization is followed by first
+	defining the variable
+
+	***Please Note:
+
+	The above notes regarding variable initialization are
+	incorrect. myExamScore =25 is a variable assignment.
+	According to C Primer Plus, Fifth Edition, by Stephen
+	Prata, a variable declaration is a data type followed
+	by a variable name; a variable assignment is a value
+	assigned (=) to a variable; and an initialization is
+	a data type followed by a variable name, which is then
+	assigned a value (Page 56). See below:
+
+	char myExamScore;      // declaration
+	myExamScore = 25;      // assignment
+	char myExamScore = 25; // initialization
+
+
+Rules for Naming a Variable
+
+	- Make sure that the variable name is not more than
+	  30 characters - some compilers may issue errors
+	
+	- A variable name can only contain alphabets (both
+	  upper and lowercase), digits, and underscore
+	
+	- The first letter of the variable cannot be a digit
+	  - it should be either an alphabet or underscore
+	
+	- You cannon use 'C' standard reserved keywords as
+	  variable names
+
+
+Variable Definition vs Declaration
+
+	- A variable is defined when the compiler generates
+	  instructions to allocate the storage for the 
+	  variable
+	
+	- A variable is declared when the compiler is informed
+	  that a variable exists along with its data type - the
+	  compiler does not generate instructions to allocate
+	  the storage for the variable at that point
+	
+	- A variable definition is also a declaration, but 
+	  not all variable declarations are definitions
+	
+
+
