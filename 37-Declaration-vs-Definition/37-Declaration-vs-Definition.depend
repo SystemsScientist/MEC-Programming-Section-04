@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1686878542 source:c:\users\matt\desktop\embedded-c\my-workspace\host\section-04\37-declaration-vs-definition\main.c
+	<stdio.h>
+	<stdlib.h>
+
