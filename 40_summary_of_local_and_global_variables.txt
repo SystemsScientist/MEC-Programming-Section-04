@@ -1,0 +1,31 @@
+
+Section 04: Summary of Local and Global Variables
+-----------------------------------------------------------
+
+Summary of Global Variables
+
+	Scope - Global variables are visible to all the
+	functions of a program. They are everywhere. Even
+	you can access global variables from another file
+	of the project.
+
+	Default value - All uninitialized global variables
+	will have 0 as default value.
+
+	Lifetime - Until the end of the execution of the
+	program.
+
+
+Summary of Local Variables
+
+	Scope - Within the body of the function. Local
+	variables lose existence once the execution
+	control comes out of the function body.
+
+	Default value - unpredictable (garbage value).
+
+	Lifetime - Until the end of the execution of a
+	function in which a variable is defined.
+
+
+
