@@ -1,0 +1,24 @@
+
+Section 04: Variables Scope and Illustration
+------------------------------------------------------------------------
+
+Variables Scopes I
+
+	- Variables have scopes
+
+	- A variable scope refers to the accessibility
+	  of a variable in a given program or function
+	
+	- For example, a variable may only be available
+	  within a specific function, or it may be 
+	  available to the entire C program
+
+
+Variable Scopes II
+
+	- Local scope variables (local variables)
+
+	- Global scope variables (global variables)
+
+
+
