@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1686879903 source:c:\users\matt\desktop\embedded-c\my-workspace\host\section-04\38-variables-scope-and-illustration2\main.c
+	<stdio.h>
+	<stdlib.h>
+
